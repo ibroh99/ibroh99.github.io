@@ -1,4 +1,5 @@
 @media(max-width:991){
+    .contact-section .contact-item,
     .portofolio-section .portofolio-item,
     .blog-section .blog-item{
         flex: 0 0 50%;
@@ -11,6 +12,7 @@
     .portofolio-popup .info,
     .portofolio-section .portofolio-item,
     .blog-section .blog-item,
+    .contact-section .contact-item,
     .about-section .about-info,
     .about-section .about-img,
     .home-section .home-text,
