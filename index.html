@@ -10,8 +10,9 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
 
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/skins/color-1.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/skins/color-1.css">
     <script src="https://kit.fontawesome.com/9f2ccf6bb8.js" crossorigin="anonymous"></script>
     <title>Awaliyatul Hikmah</title>
 </head>
@@ -37,21 +38,23 @@
         <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
         <div class="nav-menu-inner">
             <ul>
-                <li><a href="#" class="inner-shadow active">Home</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">About</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">Blog</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">Portofolio</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">Contact</a></li>
+                <li><a href="#home" class="link-item inner-shadow active">Home</a></li>
+                <li><a href="#about" class="link-item outer-shadow hover-in-shadow">About</a></li>
+                <li><a href="#blog" class="link-item outer-shadow hover-in-shadow">Blog</a></li>
+                <li><a href="#portofolio" class="link-item outer-shadow hover-in-shadow">Portofolio</a></li>
+                <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contact</a></li>
             </ul>
         </div>
 
         <!-- copyright text -->
         <p class="copyright-text">&copy; 2021 A. Hikmah</p>
     </nav>
+
+    <div class="fade-out-effect"></div>
     <!-- navigation menu end -->
 
     <!-- home section start -->
-    <section class="home-section section">
+    <section class="home-section section active" id="home">
         <!-- effect wrapper start -->
         <div class="effect-wrap">
             <div class="effect effect-1"></div>
@@ -75,7 +78,7 @@
                     <p>Hello</p>
                     <h2>I'm Hikmah</h2>
                     <h1>Full Stack Developer</h1>
-                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">More About Me</a>
+                    <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
                 </div>
                 <div class="home-img">
                     <div class="img-box inner-shadow">
@@ -88,7 +91,7 @@
     <!-- home section end -->
 
     <!-- about section start -->
-    <section class="about-section section">
+    <section class="about-section section" id="about">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -104,7 +107,6 @@
                     <div class="social-links">
                         <a href="https://blog.ahikmah.com/" class="outer-shadow hover-in-shadow" target=”_blank”><i class="fab fa-medium-m"></i></a>
                         <a href="https://github.com/ahikmah/" class="outer-shadow hover-in-shadow" target=”_blank”><i class="fab fa-github"></i></a>
-                        <!-- <a href="https://twitter.com/aspie_coder/" class="outer-shadow hover-in-shadow" target=”_blank”><i class="fab fa-twitter"></i></i></a> -->
                         <a href="https://www.linkedin.com/in/ahikmah/" class="outer-shadow hover-in-shadow" target=”_blank”><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <!-- social media links end -->
@@ -138,7 +140,7 @@
                         </div>
                     </div>
                     <a href="#" class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
-                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">Hire Me</a>
+                    <a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">Hire Me</a>
                 </div>
             </div>
             <!-- about tab start -->
@@ -168,7 +170,7 @@
                                             Research we have done :
                                             <br/><br/>
                                             
-                                            - The Best Parameter Tuning on RNN Layers for Indonesian Text Classification (DOI: <a href="https://ieeexplore.ieee.org/document/9315425" target="_blank" rel="noopener noreferrer">10.1109/ISRITI51436.2020.9315425</a>)
+                                            - The Best Parameter Tuning on RNN Layers for Indonesian Text Classification (DOI: <a href="https://ieeexplore.ieee.org/document/9315425" target="_blank">10.1109/ISRITI51436.2020.9315425</a>)
                                             <br/><br/>
                                             - Investigate techniques to deal with unbalanced sequential data in Deep Learning.
                                             <br/><br/>
@@ -236,7 +238,7 @@
 
 
     <!-- blog section start -->
-    <section class="blog-section section">
+    <section class="blog-section section" id="blog">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -318,7 +320,7 @@
 
 
     <!-- portofolio section start -->
-    <section class="portofolio-section section">
+    <section class="portofolio-section section" id="portofolio">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -818,7 +820,7 @@
     <!-- portofolio popup end -->
 
     <!-- contact section start -->
-    <section class="contact-section section">
+    <section class="contact-section section" id="contact">
         <div class="container">
             <div class="row">
                 <div class="section-title">
