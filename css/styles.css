@@ -50,6 +50,7 @@ body{
     line-height: 1.5;
     overflow-x: hidden;
     background-color: var(--bg-black-50);
+    min-width: 280px;
     /* overflow-y: hidden; */
 }
 
