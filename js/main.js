@@ -1,9 +1,11 @@
 /*------------------- navigation menu -------------------*/
 (() => {
     const hamburgerBtn = document.querySelector('.hamburger-btn'),
+        // const navFullBtn = document.querySelector('.nav-full-page'),
         navMenu = document.querySelector('.nav-menu'),
         closeNavBtn = navMenu.querySelector('.close-nav-menu');
 
+    // navMenu.addEventListener("click", ()=>bodyScrollingToggle)
     hamburgerBtn.addEventListener('click', showNavMenu);
     closeNavBtn.addEventListener('click', hideNavMenu);
 

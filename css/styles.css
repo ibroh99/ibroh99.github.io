@@ -184,7 +184,7 @@ img{
 .effect-3{
     height: 180px;
     width: 180px;
-    border: 25px solid var(--skin-color);
+    border: 25px solid #f9dfdc;
     border-radius: 50%;
     left: 50%;
     top:-120px;
@@ -316,6 +316,24 @@ img{
     /* background-color: violet; */
     
 }
+
+.nav-full-page ul{
+    display: flex;
+}
+.nav-full-page ul li{
+    border-radius: 30px;
+    /* margin-right: 10px; */
+}
+.nav-full-page ul li a{
+    padding: 0 15px;
+    color: var(--text-black-700);
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav-full-page ul li a.active{
+    color: var(--skin-color);
+    text-decoration: none;
+}
 .header .hamburger-btn{
     height: 40px;
     width: 40px;
@@ -326,6 +344,7 @@ img{
     border-radius: 50%;
     justify-content: center;
     transition: all 0.3s ease ;
+    visibility: hidden;
 }
 .header .hamburger-btn:after{
     border-radius: 50%;

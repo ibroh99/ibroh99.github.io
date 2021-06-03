@@ -88,4 +88,10 @@
     .home-section .home-text h2{
         font-size: 40px;
     }
+    .header .hamburger-btn{
+        visibility: visible;
+    }
+    .nav-full-page {
+        display: none;
+    }
 }

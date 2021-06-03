@@ -14,6 +14,18 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="css/skins/color-1.css">
     <script src="https://kit.fontawesome.com/9f2ccf6bb8.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css"/>
+        <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+        </script>
+        <script src=
+    "https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js">
+        </script>
+        <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
+        </script>
     <title>Awaliyatul Hikmah</title>
 </head>
 <body>
@@ -27,6 +39,16 @@
                 <div class="hamburger-btn outer-shadow hover-in-shadow">
                     
                     <span></span>
+                </div>
+                <div class="nav-full-page">
+                    <ul class="nav-full">
+                        <li><a href="#home" class="link-item active">Home</a></li>
+                        <li><a href="#about" class="link-item ">About</a></li>
+                        <li><a href="#blog" class="link-item ">Blog</a></li>
+                        <li><a href="#portofolio" class="link-item">Portofolio</a></li>
+                        <li><a href="#contact" class="link-item ">Contact</a></li>
+                    </ul>
+                </div>
                 </div>
             </div>
         </div>
@@ -893,5 +915,16 @@
 
     <!-- main.js -->
     <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+  
+            $('ul.nav-full > li > a')
+                    .click(function (e) {
+                $('ul.nav-full > li > a')
+                    .removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+    </script>
 </body>
 </html>
