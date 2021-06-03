@@ -62,10 +62,10 @@
 
     .about-section .timeline .timeline-item:nth-child(odd) .icon{
         right: auto;
-        left: -60px;
+        left: -45px;
     }
     .about-section .timeline .timeline-item:nth-child(even) .icon{
-        left: -60px;
+        left: -45px;
     }
 
     .about-section .timeline .timeline-item{
@@ -93,5 +93,14 @@
     }
     .nav-full-page {
         display: none;
+    }
+    .about-section .timeline .timeline-item-inner p{
+        font-size: 13px;
+    }
+    .about-info{
+        text-align: center;
+    }
+    .about-section .timeline .timeline-item-inner{
+        padding-left: 5px;
     }
 }
