@@ -58,6 +58,11 @@ body.stop-scrolling{
     overflow-y: hidden;
 }
 
+a:hover{
+    color: var(--skin-color) !important;
+    text-decoration: none !important;
+}
+
 *:not(i){
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
